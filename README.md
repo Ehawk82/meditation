@@ -10,3 +10,11 @@ Must complete the following:
 5. demonstrate leadership skills
 6. bouce app off IT department for testing and error checks
 7. benchmarks created during group must be completed and submitted before group
+
+- square breathing
+- guided imagery
+- body scan
+  + (link)
+  + 
+
+- mindfullness
