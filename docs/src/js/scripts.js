@@ -1,5 +1,8 @@
 const init = () => {
-  alert("hello js")
+  buildApp();
+},
+buildApp = () => {
+  alert("hello JS");
 };
 window.onload = () => {
   init();
