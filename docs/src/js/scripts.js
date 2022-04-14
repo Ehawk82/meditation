@@ -2,7 +2,7 @@ const init = () => {
   buildApp();
 },
 buildApp = () => {
-  alert("hello JS");
+  body.innerHTML = "hello js";
 };
 window.onload = () => {
   init();
