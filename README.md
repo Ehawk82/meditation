@@ -19,3 +19,12 @@ Must complete the following:
   + 
 
 - mindfullness
+
+<hr />
+
+Colors:
+- #BA8A4C earthy orange
+- #CAA678 earthy cream
+- #5C6B34 mean green
+- #D9C393 vanilla bean
+- #452925 BOATS!
