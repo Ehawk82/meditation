@@ -29,7 +29,8 @@ contFunc = (body) => {
             row.innerHTML = "r:"+r+"d"+d;
         }
     }
-    assessmentChart.append(row);
+    table.className = "table w3-grey w3-card-4";
+    assessmentChart.append(table);
     
     body.append(assessmentChart);
   }
