@@ -8,6 +8,10 @@ table {
 tr {
   box-shadow:0 0 1px yellow;
 }
+td {
+  height:50px;
+  width:50px;
+}
 
 /*CLASS*/
 
