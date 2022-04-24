@@ -23,6 +23,8 @@ contFunc = (body) => {
     var assessmentChart = createEle("div"),
         table = createEle("table");
     
+    table.className = "table w3-grey w3-card-4";
+    
     for (let r = 0; r < 10; r++) {
         var row = createEle("tr");
         for(let d = 0; d < 10; d++) {
@@ -34,7 +36,7 @@ contFunc = (body) => {
         }
         table.append(row);
     }
-    table.className = "table w3-grey w3-card-4";
+    
     assessmentChart.append(table);
     
     body.append(assessmentChart);
