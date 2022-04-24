@@ -1,3 +1,18 @@
+/*DOM*/
 body {
   background-color: #CAA678 ;
 }
+table {
+  box-shadow:0 0 1px black;
+}
+tr {
+  box-shadow:0 0 1px yellow;
+}
+
+/*CLASS*/
+
+/*ID*/
+
+/*KEYFRAMES*/
+
+/*SPECIAL CASES*/
