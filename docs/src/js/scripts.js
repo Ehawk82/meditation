@@ -29,6 +29,7 @@ contFunc = (body) => {
             row.innerHTML = "r:"+r+"d"+d;
         }
     }
+    assessmentChart.append(row);
     
     body.append(assessmentChart);
   }
