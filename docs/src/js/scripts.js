@@ -30,7 +30,7 @@ contFunc = (body) => {
         for(let d = 0; d < 10; d++) {
             var td = createEle("td");
           
-            td.innerHTML = "r:" + r + "; d: " + d;
+            td.innerHTML = "r:" + r + "-d:" + d;
           
             row.append(td)
         }
