@@ -32,6 +32,7 @@ contFunc = (body) => {
           
             row.append(td)
         }
+        table.append(row);
     }
     table.className = "table w3-grey w3-card-4";
     assessmentChart.append(table);
