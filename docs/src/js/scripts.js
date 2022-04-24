@@ -25,8 +25,9 @@ contFunc = (body) => {
     
     for (let r = 0; r < 10; r++) {
         var row = createEle("tr");
-      
-        row.innerHTML = r;
+        for(let d = 0; d < 10; d++) {
+            row.innerHTML = "r:"+r+"d"+d;
+        }
     }
     
     body.append(assessmentChart);
