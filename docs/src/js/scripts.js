@@ -31,7 +31,7 @@ contFunc = (body) => {
             var td = createEle("td");
           
             td.innerHTML = "r:" + r + "-d:" + d;
-            td.onclick = tdClicked(td,r,d);
+            td.onclick = tdClicked(body,td,r,d);
           
             row.append(td)
         }
@@ -43,7 +43,7 @@ contFunc = (body) => {
     body.append(assessmentChart);
   }
 },
-tdClicked = (td,r,d) => {
+tdClicked = (body,td,r,d) => {
   return () => {
       var item = "td = " + r + ":" + d;
       alert(item);
