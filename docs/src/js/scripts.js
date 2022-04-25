@@ -39,6 +39,7 @@ contFunc = (body) => {
     }
     
     assessmentChart.append(table);
+    assessmentChart.className = "w3-container w3-center";
     
     body.append(assessmentChart);
   }
