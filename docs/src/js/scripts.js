@@ -23,7 +23,7 @@ contFunc = (body) => {
     var assessmentChart = createEle("div"),
         table = createEle("table");
     
-    table.className = "table w3-grey w3-card-4";
+    table.className = "table w3-grey w3-card-4 w3-center";
     
     for (let r = 0; r < 10; r++) {
         var row = createEle("tr");
@@ -31,6 +31,7 @@ contFunc = (body) => {
             var td = createEle("td");
           
             td.innerHTML = "r:" + r + "-d:" + d;
+            td.onclick = tdClicked(td,r,d);
           
             row.append(td)
         }
@@ -40,6 +41,12 @@ contFunc = (body) => {
     assessmentChart.append(table);
     
     body.append(assessmentChart);
+  }
+},
+tdClicked = (td,r,d) => {
+  return () => {
+      var item = "td = " + r + ":" + d;
+      alert(item);
   }
 };
 window.onload = () => {
